@@ -1,50 +1,59 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+---
+version_change: "0.0.0 → 1.0.0"
+modified_principles: []
+added_sections:
+  - "Development Workflow"
+removed_sections: []
+templates_updated:
+  - path: ".specify/templates/plan-template.md"
+    status: "✅"
+  - path: ".specify/templates/spec-template.md"
+    status: "✅"
+  - path: ".specify/templates/tasks-template.md"
+    status: "✅"
+  - path: ".specify/templates/agent-file-template.md"
+    status: "✅"
+  - path: ".specify/templates/checklist-template.md"
+    status: "✅"
+follow_up_todos: []
+---
+-->
+# Umang Bandil's Professional Portfolio Website Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Modern & Responsive Design
+The portfolio website must be a visually engaging, performant single-page application. It should be responsive and work flawlessly on all devices, from mobile phones to high-resolution desktop screens.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Atomic Design
+The project will strictly follow Brad Frost's Atomic Design methodology. All UI components will be organized into atoms, molecules, organisms, templates, and pages. This ensures a scalable and maintainable codebase.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Component-Driven Development
+The UI will be built with a clear hierarchy of components. Development should be component-centric, with each component being independently testable and reusable. Storybook will be used for component development and documentation.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Performance-First
+Performance is a critical success metric. The website must achieve a Lighthouse score of over 90, animations must run at a smooth 60fps, and the total gzipped bundle size must be under 500KB.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Accessibility
+The website must be accessible to everyone, including people with disabilities. It must comply with WCAG 2.1 AA standards.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### VI. Testability
+All code must be testable. The development process includes dedicated phases for testing, including cross-browser testing, performance optimization, and accessibility checks.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Development Workflow
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+The development process will follow the phases outlined in the PRD:
+1.  **Phase 1: Setup**
+2.  **Phase 2: Build Atoms**
+3.  **Phase 3: Build Molecules**
+4.  **Phase 4: Build Organisms**
+5.  **Phase 5: Templates & Pages**
+6.  **Phase 6: Polish & Testing**
+7.  **Phase 7: Deployment**
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution supersedes all other practices. All development work must adhere to the principles and guidelines outlined in this document. Any amendments to this constitution require documentation, approval, and a migration plan.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-25 | **Last Amended**: 2025-12-25
