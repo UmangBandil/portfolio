@@ -1,2 +1,5 @@
 # Ignore this emoji file
 ✅
+*storybook.log
+storybook-static
+node_modules
