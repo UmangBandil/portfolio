@@ -1,16 +1,69 @@
-# React + Vite
+# Umang Bandil - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fully-featured portfolio website built with React, TypeScript, and TailwindCSS featuring 50+ production-ready components.
 
-Currently, two official plugins are available:
+## 🚀 Quick Start
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+# Install dependencies
+npm install
 
-## React Compiler
+# Start development server
+npm run dev
+# Opens http://localhost:5173/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# View components in Storybook
+npm run storybook
+# Opens http://localhost:6006/
 
-## Expanding the ESLint configuration
+# Build for production
+npm run build
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Preview production build
+npm run preview
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── atoms/        (17 base UI components)
+├── molecules/    (15 component combinations)
+├── organisms/    (12 complex sections)
+├── templates/    (3 page layouts)
+├── stories/      (Storybook documentation)
+├── App.tsx       (Portfolio homepage)
+└── main.tsx      (Entry point)
+```
+
+## ✨ Features
+
+- **50+ Components** - Complete component library with TypeScript
+- **Atomic Design** - Organized component hierarchy
+- **TailwindCSS + DaisyUI** - Modern, responsive styling
+- **Storybook Integration** - Interactive component documentation
+- **React 19** - Latest React features
+- **TypeScript** - Full type safety
+- **Vite** - Lightning-fast build tool
+
+## 🛠️ Tech Stack
+
+| Package | Version |
+|---------|---------|
+| React | 19.2.0 |
+| TypeScript | 5.7.2 |
+| Vite | 6.4.1 |
+| TailwindCSS | 4.1.0 |
+| DaisyUI | 5.0.0 |
+| Storybook | 8.4.7 |
+
+## 📦 Build Output
+
+- **Production Bundle**: ~211 kB (65 kB gzipped)
+- **CSS**: ~20 kB (5.5 kB gzipped)
+- **Build Time**: ~1.1s
+- **ESLint**: ✅ Passing
+
+## 📝 License
+
+MIT
