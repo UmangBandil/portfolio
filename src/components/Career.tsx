@@ -15,43 +15,40 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Full Stack Engineer</h4>
+                <h5>Freelance</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2019-2021</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Built responsive web applications and established CI/CD pipelines using Git and Vercel. 
+              Worked closely with clients to deliver high-quality digital experiences.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Backend Engineer</h4>
+                <h5>Tech Startup</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2021-2023</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Created robust and scalable APIs and microservices using Node.js, Express, Python, and PostgreSQL. 
+              Managed Docker containers and AWS infrastructure.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Senior Full Stack Engineer</h4>
+                <h5>Enterprise Corp</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Leading a team in building full stack applications with React, Next.js, and TypeScript. 
+              Focusing on high performance and exceptional UI/UX standards.
             </p>
           </div>
         </div>
